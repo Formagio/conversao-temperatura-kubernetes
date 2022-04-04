@@ -5,7 +5,7 @@ metadata:
 spec:
     containers:
         - name: web
-          image: kubedevio/web-page:blue
+          image: formagio/conversao-temperatura
           ports:
             - containerPort: 80
 ---
@@ -19,6 +19,6 @@ metadata:
 spec:
     containers:
         - name: web
-          image: kubedevio/web-page:blue
+          image: formagio/conversao-temperatura
           ports:
             - containerPort: 80
